@@ -58,7 +58,7 @@ async function run() {
     // get users toys
     app.get("/my-toys/:email", async (req, res) => {
       const userEmail = req.params.email;
-      const query = { email: userEmail };
+      const query = { sellerEmail: userEmail };
 
       const result = await toysCollection.findOne(query);
       res.send(result);
