@@ -30,9 +30,20 @@ async function run() {
     // await client.connect();
     client.connect();
 
+    const toysCollection = client.db("toyGarden").collection("toys");
+
     //API CODES HERE
     app.get("/demo", async (req, res) => {
       res.send(demoData);
+    });
+
+    // for subcategory routings
+    // get all toys
+    app.get("/toys", async (req, res) => {
+      const cursor = toysCollection.find();
+      const result = await cursor.toArray();
+
+      res.send(result);
     });
 
     // Send a ping to confirm a successful connection

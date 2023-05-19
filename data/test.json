@@ -1,10 +1,266 @@
 [
   {
-    "id": 0,
-    "name": "topu"
+    "pictureURL": "https://live.staticflickr.com/65535/49395861763_f0317a9864_b.jpg",
+    "name": "Iron Man Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Marvel",
+    "price": 29.99,
+    "rating": 4.5,
+    "quantity": 10,
+    "description": "Bring home the iconic Iron Man action figure and join the Avengers in their battle against evil. This highly detailed figurine is made from durable materials and is perfect for fans of all ages."
   },
   {
-    "id": 1,
-    "name": "topu2"
+    "pictureURL": "https://live.staticflickr.com/65535/46858076645_a1cb5744bb_b.jpg",
+    "name": "Captain America Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Marvel",
+    "price": 24.99,
+    "rating": 4.2,
+    "quantity": 15,
+    "description": "Assemble your own team of Avengers with this Captain America action figure. With its realistic design and poseable joints, you can recreate epic battles from the Marvel universe. Get ready to save the world!"
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/5158/14193539638_1a94eb3169_b.jpg",
+    "name": "Darth Vader Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Star Wars",
+    "price": 34.99,
+    "rating": 4.7,
+    "quantity": 8,
+    "description": "Embrace the dark side with this Darth Vader action figure. With its detailed craftsmanship and authentic lightsaber, this figure is a must-have for any Star Wars fan. Rule the galaxy with the Sith Lord himself!"
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/2500/3715135638_3cd7a1dd12_b.jpg",
+    "name": "Optimus Prime Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Transformers",
+    "price": 39.99,
+    "rating": 4.9,
+    "quantity": 5,
+    "description": "Experience the epic battle between Autobots and Decepticons with this Optimus Prime action figure. With its transforming feature and intricate details, you can recreate the legendary battles from the Transformers universe."
+  },
+  {
+    "pictureURL": "https://www.maxpixel.net/static/photo/1x/Toy-Bear-Art-Teddy-Hulk-Modern-Battle-Superhero-6878197.jpg",
+    "name": "Hulk Action Figure",
+    "sellerName": "Tim Fringer",
+    "sellerEmail": "tim@gmail.com",
+    "subCategory": "Marvel",
+    "price": 27.99,
+    "rating": 4.3,
+    "quantity": 7,
+    "description": "Smash your way into action with this incredible Hulk action figure. With its super-sized muscles and roaring features, you can unleash the power of the strongest Avenger right at your fingertips."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/8519/8488933878_e85e63f4ea_b.jpg",
+    "name": "Black Widow Action Figure",
+    "sellerName": "Tim Fringer",
+    "sellerEmail": "tim@gmail.com",
+    "subCategory": "Marvel",
+    "price": 22.99,
+    "rating": 4.1,
+    "quantity": 9,
+    "description": "Channel your inner spy with this Black Widow action figure. With its sleek design and hidden gadgets, you can join Natasha Romanoff on thrilling covert missions."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/65535/48696359333_3128e089f4_b.jpg",
+    "name": "Yoda Action Figure",
+    "sellerName": "Tim Fringer",
+    "sellerEmail": "tim@gmail.com",
+    "subCategory": "Star Wars",
+    "price": 32.99,
+    "rating": 4.8,
+    "quantity": 6,
+    "description": "Harness the wisdom and power of the Force with this Yoda action figure. With its lifelike details and unique articulation, you can train to become a Jedi Master."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/7317/8747641624_649bf6c6fe_b.jpg",
+    "name": "Bumblebee Action Figure",
+    "sellerName": "Tim Fringer",
+    "sellerEmail": "tim@gmail.com",
+    "subCategory": "Transformers",
+    "price": 36.99,
+    "rating": 4.6,
+    "quantity": 4,
+    "description": "Join the Autobots in their battle against the Decepticons with this Bumblebee action figure. With its sleek design and transforming abilities, you can defend Earth from evil."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/1869/29292530877_6021bed737_b.jpg",
+    "name": "Thor Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "Marvel",
+    "price": 31.99,
+    "rating": 4.4,
+    "quantity": 11,
+    "description": "Summon the power of lightning with this Thor action figure. With its mighty hammer and majestic design, you can join the God of Thunder on epic adventures."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/3436/3750251766_d800f273a7_b.jpg",
+    "name": "Megatron Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "Transformers",
+    "price": 42.99,
+    "rating": 4.7,
+    "quantity": 8,
+    "description": "Unleash the power of the Decepticons with this fearsome Megatron action figure. With its menacing appearance and interchangeable weapons, you can conquer the universe in the name of the Decepticon Empire."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/65535/49207727233_a501698338_b.jpg",
+    "name": "Barricade Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "Transformers",
+    "price": 37.99,
+    "rating": 4.5,
+    "quantity": 9,
+    "description": "Join the ranks of the Decepticons with this menacing Barricade action figure. With its sinister design and convertible vehicle mode, you can enforce the will of Megatron in the battle for supremacy."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/2631/3773594910_e82691af2d_b.jpg",
+    "name": "Starscream Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Transformers",
+    "price": 39.99,
+    "rating": 4.6,
+    "quantity": 7,
+    "description": "Take to the skies with this treacherous Starscream action figure. With its sleek design and jet mode transformation, you can plot your own path to power within the Decepticon ranks."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/3890/14509701536_fc36a6f438_b.jpg",
+    "name": "Grimlock Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "Transformers",
+    "price": 44.99,
+    "rating": 4.8,
+    "quantity": 5,
+    "description": "Unleash the fury of Grimlock with this mighty Dinobot action figure. With its powerful jaws and fierce dinosaur mode, you can stomp through the battlefield and strike fear into the hearts of your enemies."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/1900/30467788398_96d448446b_b.jpg",
+    "name": "Thanos Action Figure",
+    "sellerName": "Tim Fringer",
+    "sellerEmail": "tim@gmail.com",
+    "subCategory": "Marvel",
+    "price": 49.99,
+    "rating": 4.8,
+    "quantity": 6,
+    "description": "Wield the power of the Infinity Gauntlet with this imposing Thanos action figure. With its intricate design and interchangeable accessories, you can recreate the epic battles from the Marvel Cinematic Universe."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/809/27128269418_a0e991db87_b.jpg",
+    "name": "Spider-Man Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "Marvel",
+    "price": 26.99,
+    "rating": 4.5,
+    "quantity": 8,
+    "description": "Swing into action with this amazing Spider-Man action figure. With its flexible joints and web-slinging accessories, you can recreate the acrobatic moves of everyone's friendly neighborhood superhero."
+  },
+  {
+    "pictureURL": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Batman_%28black_background%29.jpg",
+    "name": "Batman Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "DC",
+    "price": 29.99,
+    "rating": 4.7,
+    "quantity": 10,
+    "description": "Protect Gotham City with this iconic Batman action figure. With its detailed costume and array of gadgets, you can embody the Dark Knight and fight against the criminal underworld."
+  },
+  {
+    "pictureURL": "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4MTA2MTQ0MS1pbWFnZS1rejJlOW43Ni5qcGc.jpg?s=GutMAEbJTrWwXqGBxzdfIsx0_8e1CXeBdzLT3diSacY",
+    "name": "Wonder Woman Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "DC",
+    "price": 27.99,
+    "rating": 4.6,
+    "quantity": 9,
+    "description": "Embrace the strength and grace of Wonder Woman with this empowering action figure. With its iconic armor and Lasso of Truth, you can champion justice and protect the world from evil."
+  },
+  {
+    "pictureURL": "https://p1.pxfuel.com/preview/877/838/473/superman-super-strength-muscles-superhero-hero.jpg",
+    "name": "Superman Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "DC",
+    "price": 31.99,
+    "rating": 4.8,
+    "quantity": 7,
+    "description": "Soar through the skies as the Man of Steel with this incredible Superman action figure. With its iconic symbol and ability to leap tall buildings in a single bound, you can inspire hope and save the day."
+  },
+  {
+    "pictureURL": "https://c1.peakpx.com/wallpaper/195/741/265/hero-the-flash-strong-flash-power-wallpaper-preview.jpg",
+    "name": "Flash Action Figure",
+    "sellerName": "John Smith",
+    "sellerEmail": "john@gmail.com",
+    "subCategory": "DC",
+    "price": 25.99,
+    "rating": 4.5,
+    "quantity": 8,
+    "description": "Race against time with this lightning-fast Flash action figure. With its vibrant costume and superhuman speed, you can break the sound barrier and outsmart any opponent."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/2541/3759971738_a3b9ce25a8_b.jpg",
+    "name": "Aquaman Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "DC",
+    "price": 28.99,
+    "rating": 4.4,
+    "quantity": 9,
+    "description": "Dive into the depths of the ocean with this mighty Aquaman action figure. With its regal armor and command over sea creatures, you can protect both land and sea from any threat."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/65535/49076411001_8d28c6089e_b.jpg",
+    "name": "Luke Skywalker Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Star Wars",
+    "price": 32.99,
+    "rating": 4.6,
+    "quantity": 7,
+    "description": "Join the Rebel Alliance and become a Jedi Knight with this heroic Luke Skywalker action figure. With its iconic outfit and lightsaber, you can master the Force and bring balance to the galaxy."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/65535/49602768971_97bffedc8a_b.jpg",
+    "name": "Stormtrooper Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Star Wars",
+    "price": 28.99,
+    "rating": 4.6,
+    "quantity": 7,
+    "description": "Join the ranks of the Galactic Empire with this authentic Stormtrooper action figure. With its iconic white armor and blaster rifle, you can enforce order and crush the Rebel scum."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/1961/45019237561_3aa940ab47_b.jpg",
+    "name": "Princess Leia Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Star Wars",
+    "price": 25.99,
+    "rating": 4.4,
+    "quantity": 10,
+    "description": "Lead the Rebel Alliance with grace and strength with this Princess Leia action figure. With its iconic white dress and blaster, you can inspire hope and fight against the tyranny of the Empire."
+  },
+  {
+    "pictureURL": "https://live.staticflickr.com/65535/48368336127_c4d650eba5_b.jpg",
+    "name": "Obi-Wan Kenobi Action Figure",
+    "sellerName": "Topu Rayhan Rabby Mamud",
+    "sellerEmail": "topurayhan007@gmail.com",
+    "subCategory": "Star Wars",
+    "price": 31.99,
+    "rating": 4.7,
+    "quantity": 8,
+    "description": "Embark on epic Jedi adventures with this wise Obi-Wan Kenobi action figure. With its detailed robe and lightsaber, you can train in the ways of the Force and confront the Sith."
   }
 ]
