@@ -60,7 +60,7 @@ async function run() {
       const userEmail = req.params.email;
       const query = { sellerEmail: userEmail };
 
-      const result = await toysCollection.findOne(query);
+      const result = await toysCollection.findMany(query);
       res.send(result);
     });
 
