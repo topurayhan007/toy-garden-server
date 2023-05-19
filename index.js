@@ -60,8 +60,11 @@ async function run() {
       const userEmail = req.params.email;
       const query = { sellerEmail: userEmail };
 
-      const result = await toysCollection.findMany(query);
-      res.send(result);
+      // const result = toysCollection.aggregate([{ $match: query }]);
+      // const resultArray = await result.toArray();
+      const resultArray = await toysCollection.find(query).toArray();
+
+      res.send(resultArray);
     });
 
     // add new toy
