@@ -116,6 +116,20 @@ async function run() {
       res.send(result);
     });
 
+    // sort by price using a id
+    app.get("/my-toys/:email/sort", async (req, res) => {
+      const id = parseInt(req.query.query);
+      const userEmail = req.params.email;
+      const filterQuery = { sellerEmail: userEmail };
+      // id = 1 (Asc) id = -1 (Des)
+      const sortQuery = {
+        price: id,
+      };
+      const cursor = toysCollection.find(filterQuery).sort(sortQuery);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
