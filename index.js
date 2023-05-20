@@ -75,6 +75,14 @@ async function run() {
       res.send(result);
     });
 
+    // Limit 20 toys data
+    app.get("/toys/limit", async (req, res) => {
+      const queryLimit = parseInt(req.query.query);
+      const cursor = toysCollection.find().limit(queryLimit);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
     // Update toy info
     app.put("/toys/:id", async (req, res) => {
       const id = req.params.id;
