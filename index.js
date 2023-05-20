@@ -104,6 +104,17 @@ async function run() {
       res.send(result);
     });
 
+    // Search toys by name
+    app.get("/toys/search", async (req, res) => {
+      const searchQuery = req.query.query;
+      const query = {
+        name: { $regex: searchQuery, $options: "i" },
+      };
+      const cursor = toysCollection.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
