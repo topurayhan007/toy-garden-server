@@ -107,6 +107,7 @@ async function run() {
     // Search toys by name
     app.get("/toys/search", async (req, res) => {
       const searchQuery = req.query.query;
+      console.log(searchQuery);
       const query = {
         name: { $regex: searchQuery, $options: "i" },
       };
